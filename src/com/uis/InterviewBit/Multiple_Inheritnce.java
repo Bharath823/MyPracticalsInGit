@@ -26,6 +26,9 @@ class C extends A{
 }
 
 //multiple inheritance not allowed in Java
-class D extends A,B {
-	
+class D extends C {
+	@Override
+	public void print() {
+		System.out.println("in D print()");
+	}
 }
