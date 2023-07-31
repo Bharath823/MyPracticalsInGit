@@ -13,6 +13,7 @@ public class Controller
 	
 	public static DebitCard cardLoaded()
 	{
+		return null;
 		
 	}
 	
